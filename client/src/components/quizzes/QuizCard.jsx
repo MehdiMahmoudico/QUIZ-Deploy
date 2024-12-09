@@ -60,7 +60,7 @@ const QuizCard = ({ name, description, level, questionsCount, image, id,onDelete
             <CardMedia
                 component="img"
                 height="140"
-                image={`http://107.22.157.99:8000/${image}`}
+                image={`http://localhost:8000/${image}`}
                 alt={name}
                 sx={{ borderTopLeftRadius: "8px", borderTopRightRadius: "8px" }}
             />
